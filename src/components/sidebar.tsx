@@ -10,16 +10,13 @@ export default function Sidebar() {
     const className = css`
         color: hotpink;
         background-color: lightgrey;
-        max-width: 300px;
-        height: calc(100vh - 40px);
-        padding: 20px;
+        height: 100%;
+        padding: 0px 20px;
     `
     
     return (
         <div className={className}>
-            <ul>
-                {links.map(link => <li key={link.id}>{link.label}</li>)}
-            </ul>
+            {links.map(link => <div key={link.id}>{link.label}</div>)}
         </div>
     )
 }

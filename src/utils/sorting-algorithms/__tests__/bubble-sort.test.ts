@@ -1,4 +1,5 @@
-import {bubbleSort} from './../bubble-sort';
+import bubbleSort from './../bubble-sort';
+
 test("test bubble sort",()=>{
     const testArray = [2,3,1,7,4,6,5,8];
     const actual = bubbleSort(testArray);

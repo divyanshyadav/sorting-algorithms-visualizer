@@ -1,4 +1,4 @@
-export function bubbleSort(array: Array<number>){
+export default function bubbleSort(array: Array<number>){
     let results = [array.slice()]; 
     let length: number = array.length;
     let swapped: boolean = false;

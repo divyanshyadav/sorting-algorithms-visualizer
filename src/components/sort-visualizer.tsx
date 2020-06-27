@@ -5,7 +5,7 @@ interface SortVisualizerProps {
     data: Array<number>,
 }
 
-export default function SortVisualizer({ data }: SortVisualizerProps) {
+export default function SortVisualizer({ data = [] }: SortVisualizerProps) {
     const style = css`
         align-items: flex-end;
         background: white;

@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { css } from 'emotion'
 
 const links = [
-    { id: "1", label: 'Bubble sort' },
+    { id: "1", label: 'Bubble sort', route: '/bubble-sort' },
+    { id: "2", label: 'Insertion sort', route: '/insertion-sort' },
 ]
 
 export default function Sidebar() {
@@ -16,7 +18,11 @@ export default function Sidebar() {
     
     return (
         <div className={className}>
-            {links.map(link => <div key={link.id}>{link.label}</div>)}
+            {links.map(link => 
+                <div key={link.id}>
+                    <Link to={link.route}>{link.label}</Link>
+                </div>
+            )}
         </div>
     )
 }

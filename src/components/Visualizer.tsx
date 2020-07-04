@@ -18,6 +18,8 @@ export default function Visualizer() {
             return
         }
 
+        window.document.title = algo.label
+
         const array = randomNumbersArray({ length: ARRAY_SIZE })
         const frameArrays: number[][] = algo.algorithmFn(array)
 

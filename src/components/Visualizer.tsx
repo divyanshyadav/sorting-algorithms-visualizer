@@ -5,7 +5,8 @@ import { randomNumbersArray } from '../utils/random'
 import { useLocation } from "react-router-dom";
 import { ROUTES } from '../constants'
 
-const ARRAY_SIZE = 1000
+const ARRAY_SIZE = 200
+const DELAY = 10
 
 export default function Visualizer() {
     let { pathname } = useLocation();
@@ -28,7 +29,7 @@ export default function Visualizer() {
             }
 
             setFrame(frameArrays[i++])
-        }, 10);
+        }, DELAY);
 
         return () => clearInterval(interval)
 

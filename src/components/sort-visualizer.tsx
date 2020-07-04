@@ -1,11 +1,12 @@
 import React from 'react';
 import { css } from 'emotion'
+import { Frame } from './Visualizer'
 
 interface SortVisualizerProps {
-    data: Array<number>,
+    frame: Frame,
 }
 
-export default function SortVisualizer({ data = [] }: SortVisualizerProps) {
+export default function SortVisualizer({ frame }: SortVisualizerProps) {
     const style = css`
         align-items: flex-end;
         background: white;
@@ -14,16 +15,29 @@ export default function SortVisualizer({ data = [] }: SortVisualizerProps) {
         flex-direction: row;
         height: 300px;
     `
+    
+    const renderBars = () => frame.data.map((value, index) => {
 
-    const renderBars = () => data.map((value, index) => {
+        const getBarColor = () => {
+            if (index === frame.indexA) {
+                return 'green'
+            }
+
+            if (index === frame.indexB) {
+                return 'red'
+            }
+
+            return 'grey'
+        }
+
         const barStyle = (height: number, width: number) => css`
-            background: hotpink;
+            background: ${getBarColor()};
             height: ${height}%;
             width: ${width}%;
         `
         
-        const height = (value / data.length) * 100
-        const width = (1 / data.length) * 100
+        const height = (value / frame.data.length) * 100
+        const width = (1 / frame.data.length) * 100
 
         return (
             <div 

@@ -5,7 +5,7 @@ import { randomNumbersArray } from '../utils/random'
 import { useLocation } from "react-router-dom";
 import { ROUTES } from '../constants'
 
-const ARRAY_SIZE = 50
+const ARRAY_SIZE = 1000
 
 export default function Visualizer() {
     let { pathname } = useLocation();

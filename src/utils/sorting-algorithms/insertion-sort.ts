@@ -1,8 +1,4 @@
-function swap(array: Array<any>, indexA: number, indexB: number) {
-    const temp = array[indexA]
-    array[indexA] = array[indexB]
-    array[indexB] = temp
-}
+import { swap } from "../sort-utils"
 
 export default function insertionSort(array: Array<number>) {
     const results = [array.slice()]

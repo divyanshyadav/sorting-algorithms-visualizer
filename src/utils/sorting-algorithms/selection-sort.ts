@@ -1,8 +1,6 @@
 import { swap } from "../sort-utils"
 
-export default function selectionSort(array: Array<number>) {
-    const results = [array.slice()]
-
+export default function selectionSort(array: Array<number>, onSwap: Function) {
     for (let i = 0; i < array.length; i++) {
         let min = i
 
@@ -12,9 +10,8 @@ export default function selectionSort(array: Array<number>) {
             }
         }
 
+        onSwap(array, min, i)
         swap(array, i, min)
-        results.push(array.slice())
+        onSwap(array, i, min)
     }
-
-    return results
 }

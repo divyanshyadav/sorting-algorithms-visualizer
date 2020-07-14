@@ -4,6 +4,23 @@
 
 Here is a working live demo : https://divyanshyadav.github.io/sorting-algorithms-visualizer
 
+## Sorting algorithms
+
+- [x] Bubble sort
+- [x] Insertion sort
+- [x] Selection sort
+- [ ] Shell sort
+- [ ] Heap sort
+- [ ] Tree sort
+- [ ] Merge sort
+- [ ] Quick sort
+
+## Linear sorting algorithms
+
+- [ ] Counting sort
+- [ ] Bucket sort(or Bin sort)
+- [ ] Radix sort
+
 ## Classification of sorting algorithms
 
 - Number of comparisons

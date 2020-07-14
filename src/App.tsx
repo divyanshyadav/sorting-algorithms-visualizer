@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './screens/home'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
 } from "react-router-dom";
 import './App.css';
 

@@ -1,5 +1,9 @@
 # Sorting Algorithms Visualizer
 
+## Demo
+
+`https://divyanshyadav.github.io/sorting-algorithms-visualizer/`
+
 ## Classification of sorting algorithms
 
 - Number of comparisons

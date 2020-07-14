@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/divyanshyadav/sorting-algorithms-visualizer/static/css/main.6569f3b6.chunk.css",
+    "main.js": "/divyanshyadav/sorting-algorithms-visualizer/static/js/main.3c6d75f4.chunk.js",
+    "main.js.map": "/divyanshyadav/sorting-algorithms-visualizer/static/js/main.3c6d75f4.chunk.js.map",
+    "runtime-main.js": "/divyanshyadav/sorting-algorithms-visualizer/static/js/runtime-main.0a7fa068.js",
+    "runtime-main.js.map": "/divyanshyadav/sorting-algorithms-visualizer/static/js/runtime-main.0a7fa068.js.map",
+    "static/js/2.903209c8.chunk.js": "/divyanshyadav/sorting-algorithms-visualizer/static/js/2.903209c8.chunk.js",
+    "static/js/2.903209c8.chunk.js.map": "/divyanshyadav/sorting-algorithms-visualizer/static/js/2.903209c8.chunk.js.map",
+    "index.html": "/divyanshyadav/sorting-algorithms-visualizer/index.html",
+    "precache-manifest.fbc4a85e40d049a5ed5afb79a02a1feb.js": "/divyanshyadav/sorting-algorithms-visualizer/precache-manifest.fbc4a85e40d049a5ed5afb79a02a1feb.js",
+    "service-worker.js": "/divyanshyadav/sorting-algorithms-visualizer/service-worker.js",
+    "static/css/main.6569f3b6.chunk.css.map": "/divyanshyadav/sorting-algorithms-visualizer/static/css/main.6569f3b6.chunk.css.map",
+    "static/js/2.903209c8.chunk.js.LICENSE.txt": "/divyanshyadav/sorting-algorithms-visualizer/static/js/2.903209c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a7fa068.js",
+    "static/js/2.903209c8.chunk.js",
+    "static/css/main.6569f3b6.chunk.css",
+    "static/js/main.3c6d75f4.chunk.js"
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Demo
 
-`https://divyanshyadav.github.io/sorting-algorithms-visualizer/`
+Here is a working live demo : https://divyanshyadav.github.io/sorting-algorithms-visualizer
 
 ## Classification of sorting algorithms
 
